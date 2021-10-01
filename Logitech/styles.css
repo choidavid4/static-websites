@@ -1,0 +1,230 @@
+
+
+body{
+    background-color:rgb(240,240,240);
+}
+
+header{
+    background-color: rgb(240,240,240);
+    padding: 0px 15px;
+}
+
+header #logo{
+    padding: 15px 0px;
+}
+
+header #menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header #menu a, #grid a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+header #menu div{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+header #menu div:hover{
+    border-bottom: 6px solid white;
+}
+
+header #search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search img{
+    display: inline;
+}
+
+.borde-inferior{
+    border-bottom: 1px solid black;
+}
+
+#search input{
+    background-color: rgba(255,255,255,0);
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    #logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#carouselExampleIndicators, .carousel-inner{
+    height: 90vh;
+}
+
+#carouselExampleIndicators img{
+    height: 100%;
+}
+
+#carouselExampleIndicators #item1{
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/03/setup-gaming-2267149.jpg?itok=cROLsKPH);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#carouselExampleIndicators #item2{
+    background-image: url(https://pbs.twimg.com/media/E2bGJ2KX0AI56ys.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#carouselExampleIndicators #item3{
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/08/setup-gaming-2444707.jpg?itok=2xpK7tTu);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#carouselExampleIndicators .carousel-item{
+    height: 100%;
+}
+
+#productos{
+    padding: 100px 20px;
+}
+
+#productos #grid{
+    display: grid;
+    grid-template-areas: 
+    "one one two"
+    "one one three"
+    "four five three";
+    grid-template-rows: 200px 200px 200px;
+    gap: 25px;
+}
+
+#grid div{
+    border-radius: 20px;
+    background-color: #d1d1d1;
+}
+
+#grid img:hover{
+    transform: scale(1.20);
+    transition: 0.5s;
+}
+
+#grid a{
+    text-decoration: none;
+}
+
+#grid p{
+    margin-top: 20px;
+}
+
+#elem2 p{
+    margin-top: 0;
+}
+
+#grid img{
+    margin: auto;
+    width: 60%;
+}
+
+#elem4 img, #elem5 img{
+    max-height: 175px;
+}
+
+#elem2 img{
+    max-height: 220px;
+}
+
+#elem3 img{
+    max-height: 350px;
+}
+
+#elem1{
+    grid-area: one;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+#elem2{
+    grid-area: two;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+#elem3{
+    grid-area: three;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#elem4{
+    grid-area: four;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#elem5{
+    grid-area: five;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    color: black;
+
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+#banner .container-xxl{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#banner .cta{
+    padding: 100px 0px;
+    width: 30%;
+}
+
+#banner button{
+    border-radius: 0;
+    padding: 10px 30px;
+}
+
+.background-vintage{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1a/Tatung-einstein-computer.png);
+    background-position: left center;
+    background-size: 500px 100%;
+    background-repeat: no-repeat;
+}
+
+footer{
+    padding: 50px 0px;
+}
